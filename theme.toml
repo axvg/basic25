@@ -1,0 +1,17 @@
+name = 'Basic25'
+license = 'MIT'
+licenselink = 'https://github.com/axvg/basic25/LICENSE'
+description = 'Theme description'
+
+homepage = 'https://github.com/axvg/basic25'
+
+# If you have a running demo of the theme
+# demosite = 'https://owner.github.io/repo'
+
+# Taxonomy terms
+tags = ['blog', 'company']
+features = ['some', 'awesome', 'features']
+
+[author]
+  name = 'axvg'
+  homepage = 'https://axvg.github.io/'

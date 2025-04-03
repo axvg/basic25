@@ -1,0 +1,11 @@
+{{ define "main" }}
+  {{ .Content }}
+  {{ if .Site.Params.showHiddenPages }}
+    {{ range site.RegularPages }}
+      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      {{ .Summary }}
+    {{ end }}
+  {{ else }}
+    <p>nothing here</p>
+  {{ end }}
+{{ end }}
